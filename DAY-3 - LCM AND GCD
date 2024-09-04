@@ -21,7 +21,7 @@ void main()
         remainder   = numerator % denominator;
     }
     gcd = denominator;
-    lcm = num1 * num2 / gcd;
-    printf("GCD of %d and %d = %d\n", num1, num2, gcd);
-    printf("LCM of %d and %d = %d\n", num1, num2, lcm);
+    lcm = A * B / gcd;
+    printf("GCD of %d and %d = %d\n", A, B, gcd);
+    printf("LCM of %d and %d = %d\n", A, B, lcm);
 }
